@@ -1,3 +1,4 @@
+pip install httplib2
 import json
 import httplib2
 import logging
