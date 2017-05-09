@@ -1,4 +1,5 @@
-pip install httplib2
+mkdir libx
+pip install -t libx/ httplib2
 import json
 import httplib2
 import logging
