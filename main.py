@@ -1,8 +1,7 @@
 import json
 import httplib2
-import logging
-#from apiclient 
-import discovery
+import logging 
+from apiclient import discovery
 from google.appengine.api import memcache
 from oauth2client.contrib.appengine import AppAssertionCredentials
 
