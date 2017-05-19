@@ -5,7 +5,7 @@ from google.appengine.ext import vendor
 # versions.
 vendor.add('lib')
 #vendor.add('libx')
-#import sys
+import sys
 import os.path
 # add `lib` subdirectory to `sys.path`, so our `main` module can load
 # third-party libraries.
