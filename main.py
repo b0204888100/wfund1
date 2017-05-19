@@ -20,7 +20,7 @@ def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World!'
 
-@app.route('/vm/start2')
+@app.route('/vm/start')
 def start_vm():
     credentials = AppAssertionCredentials(scope='https://www.googleapis.com/auth/compute')
     http = credentials.authorize(httplib2.Http(memcache))
