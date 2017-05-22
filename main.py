@@ -11,9 +11,9 @@ app.config['DEBUG'] = True
 
 # Note: We don't need to call run() since our application is embedded within
 # the App Engine WSGI application server.
-INSTANCE_NAME = 'instance-1-f1fa5f96'
+INSTANCE_NAME = 'instance-1-b527ae24'
 INSTANCE_ZONE = 'asia-east1-a'
-PROJECT = 'esoteric-cider-165206'
+PROJECT = 'continual-loop-166008'
 
 @app.route('/')
 def hello():
