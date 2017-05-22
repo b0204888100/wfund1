@@ -1,5 +1,5 @@
 cron:
 - description: run instance
   url: /vm/start
-  schedule: every day 07:00
+  schedule: every day 16:07
   timezone: Asia/Taipei
