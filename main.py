@@ -23,7 +23,7 @@ def hello():
 @app.route('/vm/start')
 def start_vm():
     credentials = AppAssertionCredentials(scope='https://www.googleapis.com/auth/compute')
-    http = credentials.authorize(httplib2.Http(memcache))
+    http = credentials.authorize(httplib2.Http())
     compute = discovery.build('compute', 'v1', http=http)
     
     # Start the VM!
